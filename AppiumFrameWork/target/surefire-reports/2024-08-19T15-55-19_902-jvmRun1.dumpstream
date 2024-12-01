@@ -1,0 +1,3 @@
+# Created at 2024-08-19T15:57:07.688
+class tests.BrowserTest cannot be cast to class tests.BaseTest (tests.BrowserTest and tests.BaseTest are in unnamed module of loader 'app')
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="CheckOutTest">
+        <methods>
+          <include name="E2ETest"/>
+          <include name="quitDriver"/>
+          <include name="intializeDriver"/>
+        </methods>
+      </class> <!-- CheckOutTest -->
+      <class name="ContextsTest">
+        <methods>
+          <include name="contextTest"/>
+          <include name="quitDriver"/>
+          <include name="intializeDriver"/>
+        </methods>
+      </class> <!-- ContextsTest -->
+      <class name="AddToCartTest">
+        <methods>
+          <include name="validShoppingForm"/>
+          <include name="quitDriver"/>
+          <include name="intializeDriver"/>
+        </methods>
+      </class> <!-- AddToCartTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
